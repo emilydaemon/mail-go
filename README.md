@@ -20,7 +20,7 @@ We use Go's 1.11+ module feature. Make sure you have this enabled. For more info
 # Credits
 This is a fork of RiiConnect24's `mail-go`, which is, in turn, a fork of Disconnect24's `mail-go`.
 
-A list of people who have contributed according to git commit logs follows. May be incomplete, apologies if I accidentall left you out.
+A list of people who have contributed according to git commit logs follows. May be incomplete, apologies if I accidentally left you out.
 
 In no particular order:
 - Gamebuster
