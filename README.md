@@ -1,12 +1,10 @@
-# Mail-Go
-[![License](https://img.shields.io/github/license/riiconnect24/mail-go.svg?style=flat-square)](http://www.gnu.org/licenses/agpl-3.0)
-![Production List](https://img.shields.io/discord/206934458954153984.svg?style=flat-square)
-[![Go Report Card](https://goreportcard.com/badge/github.com/RiiConnect24/Mail-Go?style=flat-square)](https://goreportcard.com/report/github.com/RiiConnect24/Mail-Go)
+# emily's fork of Mail-Go
 
-This is an effort to rewrite Wii Mail legacy PHP scripts into golang.
-Some reasons why:
-- `apache2` has the fun tendency to go overboard on memory usage.
-- `go` is fun.
+This is an effort make Wii Mail less frustrating to use.
+
+Goals:
+- Sending a message to anyone who has been registered but who hasn't registered them back.
+- Website with a database of friend codes, usernames, etc. Something like Wiimmfi.
 
 # How to develop
 The source is entirely here, with each individual cgi component in their own file.
@@ -20,4 +18,15 @@ You're welcome to `POST /patch` with a `nwc24msg.cfg` under form key `uploaded_c
 We use Go's 1.11+ module feature. Make sure you have this enabled. For more information, see [the Go wiki](https://github.com/golang/go/wiki/Modules).
 
 # Credits
-Thanks to Disconnect24 contributors that wrote the code, currently under a forked repo.
+This is a fork of RiiConnect24's `mail-go`, which is, in turn, a fork of Disconnect24's `mail-go`.
+
+A list of people who have contributed according to git commit logs follows. May be incomplete, apologies if I accidentall left you out.
+
+In no particular order:
+- Gamebuster
+- KcrPL
+- Artuto
+- Spotlight
+- Larsen Vallecillo/Larsenv
+- Lauren Kelly
+- CornierKhan1
